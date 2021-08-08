@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pygame_textlib_yelloo.egg-info/PKG-INFO
+src/pygame_textlib_yelloo.egg-info/SOURCES.txt
+src/pygame_textlib_yelloo.egg-info/dependency_links.txt
+src/pygame_textlib_yelloo.egg-info/top_level.txt
+src/textlib/__init__.py
+src/textlib/static_text.py

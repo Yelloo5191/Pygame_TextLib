@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pygame-textlib-yelloo
+Version: 0.0.1
+Summary: A small pygame addon for drawing static text
+Home-page: https://github.com/pypa/sampleproject
+Author: Yello
+Author-email: none@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple pygame addon to aid game developers in drawing static text in their games
+
+How to use:
+```
+    from textlib import static_text
+    from textlib.static_text import draw_text
+
+    draw_text(display, loc, size, color, text)
+    # Display = The display you want to render the text onto
+    # Loc = The position of the text
+    # Size = The font size of the text
+    # Color = The color of the text in an rgb tuple i.e. (255, 255, 255)
+    # Text = A string of your text. New lines can be marked with a "/"
+```
+
