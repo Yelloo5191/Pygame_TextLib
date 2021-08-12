@@ -2,6 +2,8 @@ This is a simple pygame addon to aid game developers in drawing static text in t
 
 How to use:
 ```
+    pip install -i https://test.pypi.org/simple/ pygame-textlib-yelloo
+
     from textlib import static_text
     from textlib.static_text import draw_text
 
